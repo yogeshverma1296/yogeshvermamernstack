@@ -1,0 +1,88 @@
+/* Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+/* Baloo Bhaijaan 2 */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* default font Baloo Bhaijaan */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius: 30px;
+    width: 420px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.top{
+    border-radius: 30px 30px 0px 0px;
+    height: 200px;
+    background-color: #1338BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top img{
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width:150px;
+    height: 150px;
+}
+/* content box */
+.content-box{
+    margin-top: 35px;
+    text-align: center;
+}
+.content-box h1{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    /* font family ubuntu */
+    font-family: 'Ubuntu', sans-serif;
+}
+.content-box>p{
+    font-size: 1.4rem;
+    margin-top: 12px;
+    color: #777;
+    /* Baloo Bhaijaan font */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.content-box .icons{
+    margin-top: 20px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.icons img{
+    width: 35px;    
+}
+/* buttons */
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.btn>a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding:8px 20px;
+    border-radius: 18px;
+    background-color:#1338BE;
+    display: inline-block;
+}
